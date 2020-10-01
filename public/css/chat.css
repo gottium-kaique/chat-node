@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+div.app {
+  padding: 40px;
+  width: 50%;
+  height: 100vh;
+}
+
+div.app h1 {
+  margin-bottom: 12px;
+}
+
+div.messages {
+  padding: 30px;
+  background: #eee;
+  width: 50%;
+  height: 100vh;
+  background: #223;
+}
+
+button {
+  padding: 12px 20px;
+  border-radius: 6px;
+  background: var(--primary);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input {
+  padding: 12px 20px;
+  border-bottom: 1px solid #ccc;
+  transition: .3s;
+  margin-bottom: 12px;
+  background: none;
+  color: #fff;
+}
+
+input:focus {
+  border-bottom: 1px solid var(--primary);
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+div.message {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+div.message strong {
+  margin-right: 20px;
+}
