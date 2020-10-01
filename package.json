@@ -1,0 +1,33 @@
+{
+  "name": "chat-test",
+  "version": "1.0.0",
+  "description": "Criando projeto de chat com Node.",
+  "keywords": [
+    "Chat",
+    "WebSockets"
+  ],
+  "author": {
+    "name": "Kaique Araújo",
+    "email": "gottium@gmail.com"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node src/openNavigator && nodemon src/server.js -e html,js,css"
+  },
+  "private": true,
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "opn": "^6.0.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.2"
+  }
+}
